@@ -1,0 +1,45 @@
+<!-- views/glossary.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glossary</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>DevOps Glossary</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Term</th>
+                <th>Description</th>
+                <th>Reference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% glossaryTerms.forEach(term => { %>
+            <tr>
+                <td><%= term.term %></td>
+                <td><%= term.description %></td>
+                <td><a href="<%= term.reference %>" target="_blank"><%= term.reference %></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>
