@@ -53,6 +53,56 @@ const glossaryTerms = [
         description: 'Configuration Management is the practice of automating and managing the configuration of software and infrastructure, ensuring consistency and reducing manual configuration errors.',
         reference: 'https://en.wikipedia.org/wiki/Configuration_management'
     },
+    {
+        term: 'Scrum',
+        description: 'Scrum is an Agile framework for managing complex knowledge work, with an initial emphasis on software development. It is designed for teams of three to nine developers who break their work into actions that can be completed within timeboxed iterations, called sprints (usually 2-4 weeks).',
+        reference: 'https://en.wikipedia.org/wiki/Scrum_(software_development)'
+    },
+    {
+        term: 'Git',
+        description: 'Git is a distributed version control system that allows multiple users to collaborate on software development while keeping track of changes in the codebase. It is widely used in modern software development and enables efficient branching, merging, and collaboration.',
+        reference: 'https://en.wikipedia.org/wiki/Git'
+    },
+    {
+        term: 'Infrastructure Automation',
+        description: 'Infrastructure Automation is the practice of automating the setup, configuration, and management of infrastructure resources using code and tools. It ensures consistent and repeatable infrastructure provisioning, reduces manual errors, and accelerates the deployment process.',
+        reference: 'https://www.ibm.com/cloud/learn/infrastructure-automation'
+    },
+    {
+        term: 'Cloud Computing',
+        description: 'Cloud Computing refers to the delivery of computing services (such as servers, storage, databases, networking, software, analytics, and more) over the internet (the cloud). Cloud platforms provide on-demand access to resources, scalability, and flexibility, enabling organizations to innovate and reduce infrastructure costs.',
+        reference: 'https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/'
+    },
+    {
+        term: 'Orchestration',
+        description: 'Orchestration in the context of DevOps refers to the automated coordination and management of various tasks, workflows, and processes involved in software deployment, provisioning, and management. It ensures that different components work together seamlessly to achieve the desired outcome.',
+        reference: 'https://en.wikipedia.org/wiki/Orchestration_(computing)'
+    },
+    {
+        term: 'Pipeline as Code',
+        description: 'Pipeline as Code is the practice of defining software deployment pipelines using code, typically in a declarative manner. It allows teams to version control their pipeline configurations, automate the creation of deployment pipelines, and ensure consistency and repeatability in the software delivery process.',
+        reference: 'https://jenkins.io/solutions/pipeline/'
+    },
+    {
+        term: 'Artifact',
+        description: 'An artifact in the context of software development and deployment is a deployable unit that represents a specific version of a software component. It can be a compiled binary, a packaged library, a Docker image, or any other form of output generated during the build process.',
+        reference: 'https://en.wikipedia.org/wiki/Artifact_(software_development)'
+    },
+    {
+        term: 'Automation',
+        description: 'Automation involves the use of scripts, tools, and processes to replace manual tasks and workflows. It aims to reduce human error, improve efficiency, and ensure consistent and repeatable processes.',
+        reference: 'https://www.atlassian.com/devops/devops-tools/test-automation'
+    },
+    {
+        term: 'Containerization',
+        description: 'Containerization is a technology that allows applications and their dependencies to be packaged together in a lightweight, isolated environment known as a container. Containers provide consistency across different environments, making deployment and scaling more efficient.',
+        reference: 'https://geekflare.com/containerization-in-devops/'
+    },
+    {
+        term: 'Microservices',
+        description: 'Microservices is an architectural approach where an application is composed of small, independently deployable and manageable services. Each service focuses on a specific business capability and communicates over well-defined APIs.',
+        reference: 'https://www.spiceworks.com/tech/devops/articles/what-are-microservices/'
+    },
    
 ];
 
