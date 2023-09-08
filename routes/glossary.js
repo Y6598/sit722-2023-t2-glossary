@@ -103,7 +103,58 @@ const glossaryTerms = [
         description: 'Microservices is an architectural approach where an application is composed of small, independently deployable and manageable services. Each service focuses on a specific business capability and communicates over well-defined APIs.',
         reference: 'https://www.spiceworks.com/tech/devops/articles/what-are-microservices/'
     },
-   
+
+   {
+    term: 'Serverless Computing',
+    description: 'Serverless computing is a cloud computing model where applications are developed and deployed without managing the underlying server infrastructure. It allows developers to focus on writing code without worrying about server provisioning, scaling, or maintenance.',
+    reference: 'https://aws.amazon.com/serverless/'
+},
+{
+    term: 'CI/CD Pipeline',
+    description: 'A CI/CD (Continuous Integration/Continuous Deployment) pipeline is a set of automated processes that enable the building, testing, and deployment of software changes. It ensures that code changes are consistently tested and deployed to production environments.',
+    reference: 'https://www.atlassian.com/continuous-delivery/ci-cd-pipeline'
+},
+{
+    term: 'Container Orchestration',
+    description: 'Container orchestration is the automated management of containerized applications. It involves tasks like scaling containers, load balancing, and ensuring high availability. Kubernetes is a popular container orchestration platform.',
+    reference: 'https://kubernetes.io/'
+},
+{
+    term: 'Server Farm',
+    description: 'A server farm is a collection of servers that work together to provide computing resources and services. It is often used to distribute workloads, improve reliability, and handle increased traffic.',
+    reference: 'https://en.wikipedia.org/wiki/Server_farm'
+},
+{
+    term: 'API Gateway',
+    description: 'An API Gateway is a server that acts as an API front-end, receiving API requests, enforcing throttling and security policies, passing requests to the back-end service, and then passing the response back to the requester.',
+    reference: 'https://aws.amazon.com/api-gateway/'
+},
+{
+    term: 'Load Balancing',
+    description: 'Load balancing is the distribution of network traffic or application requests across multiple servers or resources. It ensures that no single server is overwhelmed and helps improve system performance and availability.',
+    reference: 'https://www.nginx.com/resources/glossary/load-balancing/'
+},
+{
+    term: 'RESTful API',
+    description: 'A RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources, which are represented as URLs.',
+    reference: 'https://restfulapi.net/'
+},
+{
+    term: 'Scalability',
+    description: 'Scalability is the ability of a system to handle increased workloads or growing demands by adding resources (such as servers) to maintain or improve performance. It is a critical consideration for software and infrastructure design.',
+    reference: 'https://en.wikipedia.org/wiki/Scalability'
+},
+{
+    term: 'Latency',
+    description: 'Latency refers to the delay or time lag in data transmission between a source and a destination. Low latency is essential for real-time applications, while high latency can lead to delays in data processing.',
+    reference: 'https://en.wikipedia.org/wiki/Latency_(engineering)'
+},
+{
+    term: 'Bottleneck',
+    description: 'A bottleneck is a point in a system where the flow of data or processes is restricted or slowed down, causing reduced overall system performance. Identifying and mitigating bottlenecks is crucial for system optimization.',
+    reference: 'https://en.wikipedia.org/wiki/Bottleneck'
+}
+
 ];
 
 router.get('/', (req, res) => {
