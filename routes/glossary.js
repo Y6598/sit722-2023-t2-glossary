@@ -153,7 +153,58 @@ const glossaryTerms = [
     term: 'Bottleneck',
     description: 'A bottleneck is a point in a system where the flow of data or processes is restricted or slowed down, causing reduced overall system performance. Identifying and mitigating bottlenecks is crucial for system optimization.',
     reference: 'https://en.wikipedia.org/wiki/Bottleneck'
-}
+},
+
+{
+    term: 'Terraform',
+    description: 'Terraform is an open-source infrastructure as code (IaC) tool used for defining and provisioning infrastructure resources. It allows users to describe infrastructure configurations using a declarative language, and then it automates the provisioning and management of those resources across various cloud providers and platforms.',
+    reference: 'https://www.terraform.io/intro/index.html'
+},
+{
+    term: 'IaC State',
+    description: 'Infrastructure as Code (IaC) state refers to the recorded information about the current state of provisioned infrastructure resources. It includes details about the resources, their configurations, and their relationships. The IaC state is used by tools like Terraform to plan and manage changes to infrastructure.',
+    reference: 'https://www.terraform.io/docs/state/index.html'
+},
+{
+    term: 'Terraform Provider',
+    description: 'A Terraform provider is a plugin that enables Terraform to interact with a specific cloud provider or service. Providers define the available resources and their configurations, allowing Terraform to create, update, and manage those resources in the target environment.',
+    reference: 'https://www.terraform.io/docs/providers/index.html'
+},
+{
+    term: 'Terraform Module',
+    description: 'A Terraform module is a reusable and encapsulated set of Terraform configurations that define a specific set of infrastructure resources. Modules help organize and share infrastructure code, making it easier to maintain and reuse configurations across projects.',
+    reference: 'https://www.terraform.io/docs/modules/index.html'
+},
+{
+    term: 'Terraform Plan',
+    description: 'A Terraform plan is a command that generates an execution plan based on the current Terraform configuration and the state of the infrastructure. It provides information about the changes Terraform will make to the infrastructure when applied, helping users understand the impact of their configuration changes.',
+    reference: 'https://www.terraform.io/docs/commands/plan.html'
+},
+{
+    term: 'Terraform Apply',
+    description: 'Terraform apply is a command used to apply changes to the infrastructure as defined in the Terraform configuration. It creates, updates, or deletes resources to match the desired state defined in the configuration files.',
+    reference: 'https://www.terraform.io/docs/commands/apply.html'
+},
+{
+    term: 'Terraform Workspace',
+    description: 'Terraform workspaces are isolated environments within a Terraform project that allow users to manage separate configurations and state files for different deployments or environments (e.g., development, staging, production). Workspaces enable configuration reuse and isolation.',
+    reference: 'https://www.terraform.io/docs/state/workspaces.html'
+},
+{
+    term: 'Terraform Remote State',
+    description: 'Terraform remote state is a method of storing the state file (which records the current state of the infrastructure) remotely, often in a shared location such as an object storage bucket. Remote state allows collaboration among team members and helps maintain a single source of truth for infrastructure state.',
+    reference: 'https://www.terraform.io/docs/state/remote.html'
+},
+{
+    term: 'Infrastructure Provisioning',
+    description: 'Infrastructure provisioning in the context of Terraform refers to the process of creating and configuring infrastructure resources, such as virtual machines, networks, and storage, based on the definitions and configurations specified in Terraform files.',
+    reference: 'https://www.terraform.io/intro/index.html'
+},
+{
+    term: 'IaC Best Practices',
+    description: 'Infrastructure as Code (IaC) best practices are guidelines and recommendations for creating maintainable and reliable infrastructure configurations using tools like Terraform. These practices include version control, modularization, code review, and automated testing.',
+    reference: 'https://www.terraform.io/docs/enterprise/guides/recommended-practices/index.html'
+},
 
 ];
 
