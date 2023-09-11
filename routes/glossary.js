@@ -206,6 +206,57 @@ const glossaryTerms = [
     reference: 'https://www.terraform.io/docs/enterprise/guides/recommended-practices/index.html'
 },
 
+{
+    term: 'Kubernetes Cluster',
+    description: 'A Kubernetes cluster is a set of interconnected physical or virtual machines that run containerized applications managed by Kubernetes. It consists of a control plane (master nodes) and worker nodes, where containers are deployed and orchestrated.',
+    reference: 'https://kubernetes.io/docs/concepts/architecture/kubernetes-runtime/'
+},
+{
+    term: 'Pod',
+    description: 'A pod is the smallest deployable unit in Kubernetes. It represents a single instance of a running process in a cluster and can contain one or more containers. Pods share the same network namespace, storage, and IP address.',
+    reference: 'https://kubernetes.io/docs/concepts/workloads/pods/pod/'
+},
+{
+    term: 'Kubelet',
+    description: 'Kubelet is a Kubernetes component that runs on each node in the cluster and ensures that containers are running in a Pod as expected. It communicates with the control plane and manages container lifecycle.',
+    reference: 'https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/'
+},
+{
+    term: 'Kubernetes Namespace',
+    description: 'A Kubernetes namespace is a virtual cluster within a physical cluster. It allows for resource isolation and provides a way to divide and manage cluster resources among multiple users or teams. Namespaces help organize and secure workloads.',
+    reference: 'https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/'
+},
+{
+    term: 'Kubeconfig',
+    description: 'Kubeconfig is a configuration file used by kubectl (Kubernetes command-line tool) to specify the cluster, user, and context information required to interact with a Kubernetes cluster. It enables users to switch between clusters and contexts.',
+    reference: 'https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/'
+},
+{
+    term: 'Kubernetes API Server',
+    description: 'The Kubernetes API server is a component of the Kubernetes control plane that exposes the Kubernetes API. It is responsible for validating and processing API requests, making state changes, and serving data to clients like kubectl.',
+    reference: 'https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/'
+},
+{
+    term: 'Kubernetes Deployment',
+    description: 'A Kubernetes Deployment is an API resource that manages the deployment of a replicated application. It ensures that a specified number of replica Pods are running and provides scaling and rolling update capabilities.',
+    reference: 'https://kubernetes.io/docs/concepts/workloads/controllers/deployment/'
+},
+{
+    term: 'Kubernetes Service',
+    description: 'A Kubernetes Service is an abstraction that defines a logical set of Pods and a policy for accessing them. It enables network connectivity and load balancing to Pods, allowing services to be discovered within the cluster.',
+    reference: 'https://kubernetes.io/docs/concepts/services-networking/service/'
+},
+{
+    term: 'Kubernetes Ingress',
+    description: 'Kubernetes Ingress is an API resource that manages external access to services within a cluster. It provides HTTP and HTTPS routing, load balancing, and can be used for features like SSL termination and virtual hosting.',
+    reference: 'https://kubernetes.io/docs/concepts/services-networking/ingress/'
+},
+{
+    term: 'Helm',
+    description: 'Helm is a package manager for Kubernetes that simplifies the deployment and management of applications. It uses charts (packages) to define, install, and upgrade even the most complex Kubernetes applications.',
+    reference: 'https://helm.sh/docs/intro/what_is_helm/'
+},
+
 ];
 
 router.get('/', (req, res) => {
